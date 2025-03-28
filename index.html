@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwamiTech - Industry-Focused IT Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>SwamiTech</h1>
+            </div>
+            <nav>
+                <div class="logo">SwamiTech</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#register" class="btn">Register Now</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="hero-content">
+                        <h1>Learn to Code with Industry Experts</h1>
+                        <p>Master the latest technologies and build your career in tech with our comprehensive courses. Join thousands of successful graduates who have transformed their careers with Code with Swami Tech.</p>
+                        <div class="hero-buttons">
+                            <a href="#courses" class="btn btn-large">Explore Courses</a>
+                            <a href="#register" class="btn btn-large btn-outline">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="hero-image">
+                        <img src="static/images/hero-image.png" alt="Tech Education">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+                <p>Experience the difference with our unique approach to tech education</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Practical Learning</h3>
+                    <p>Learn by doing with hands-on projects and real-world applications</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Mentors</h3>
+                    <p>Get guidance from industry professionals with years of experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Fast-Track Learning</h3>
+                    <p>Accelerate your learning with our focused curriculum</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Placement Support</h3>
+                    <p>Get assistance with job placement and career guidance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/fullstack.png" alt="Full-Stack Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>Full-Stack Development</h3>
+                        <p>Master both frontend and backend technologies to become a complete developer capable of building end-to-end web applications.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/data-science.jpg" alt="Data Science">
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science</h3>
+                        <p>Learn to extract insights from data using statistical analysis, machine learning, and visualization techniques.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/ui-ux.png" alt="UI-UX Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>UI-UX Development</h3>
+                        <p>Design beautiful, intuitive interfaces and create smooth user experiences for websites and applications.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/cloud.png" alt="Cloud Computing">
+                    </div>
+                    <div class="course-content">
+                        <h3>Cloud Computing (AWS/Azure)</h3>
+                        <p>Gain expertise in cloud platforms and learn to deploy, scale, and manage applications in the cloud.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/ml-ai.png" alt="ML AI Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>ML AI Development</h3>
+                        <p>Explore artificial intelligence and machine learning algorithms to build intelligent systems and applications.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/product-dev.png" alt="Product Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>Product Development</h3>
+                        <p>Learn the complete product development lifecycle from ideation to deployment with focus on real-world applications.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/ds-product.webp" alt="Product Development in Data Science">
+                    </div>
+                    <div class="course-content">
+                        <h3>Product Development in Data Science</h3>
+                        <p>Combine product development skills with data science to create data-driven products and solutions.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/app-dev.png" alt="App Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>App Development (iOS & Android)</h3>
+                        <p>Learn to build native and cross-platform mobile applications for both iOS and Android platforms using industry-standard tools and frameworks.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="static/images/digital-marketing.png" alt="Digital Marketing">
+                    </div>
+                    <div class="course-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Master the strategies and tools of digital marketing including SEO, social media marketing, content creation, and analytics to drive business growth.</p>
+                        <a href="#register" class="btn btn-course">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Students Say</h2>
+                <p>Hear from our successful graduates about their learning experience</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="static/images/testimonial-1.png" alt="Aisha S.">
+                        </div>
+                        <p class="testimonial-text">
+                            "The practical approach to learning at Code with Swami Tech transformed my career. The hands-on projects and industry-focused curriculum gave me the confidence to land my dream job as a Full Stack Developer."
+                        </p>
+                        <h4 class="testimonial-author">Aisha S.</h4>
+                        <p class="testimonial-position">Full Stack Developer at TechCorp</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="static/images/testimonial-2.png" alt="Rahul M.">
+                        </div>
+                        <p class="testimonial-text">
+                            "The mentorship and guidance I received here were exceptional. The instructors are industry experts who not only teach but share real-world experiences. I'm now confidently leading AI projects."
+                        </p>
+                        <h4 class="testimonial-author">Rahul M.</h4>
+                        <p class="testimonial-position">AI Engineer at InnovateAI</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="static/images/testimonial-3.png" alt="Priya K.">
+                        </div>
+                        <p class="testimonial-text">
+                            "Switching to a tech career was daunting, but the structured curriculum and supportive environment made the journey smooth. Within months of completing the course, I secured a position as a Data Scientist."
+                        </p>
+                        <h4 class="testimonial-author">Priya K.</h4>
+                        <p class="testimonial-position">Data Scientist at DataFirst</p>
+                    </div>
+                </div>
+                <button class="slider-nav prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-nav next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register">
+        <div class="container">
+            <div class="section-title">
+                <h2>Register for a Course</h2>
+                <p>Take the first step toward a successful tech career!</p>
+            </div>
+            <div class="form-container">
+               
+                <form id="registration-form" action="https://formspree.io/f/mblgadeb" method="POST">
+                    <input type="hidden" name="_next" value="https://codeswami.tech/success.html">
+                    <!-- Personal Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title">Personal Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" class="form-control" required placeholder="Enter your first name">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" class="form-control" required placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number *</label>
+                                <input type="tel" id="mobile" name="mobile" class="form-control" required placeholder="Enter your mobile number">
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age *</label>
+                                <input type="number" id="age" name="age" class="form-control" required placeholder="Enter your age">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Gender *</label>
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="gender" value="Male" required>
+                                    <span>Male</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="Female">
+                                    <span>Female</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="Other">
+                                    <span>Other</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title">Location Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" class="form-control" placeholder="Enter your city">
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" class="form-control" placeholder="Enter your state">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Information -->
+                    <div class="form-section">
+                        <h3 class="form-section-title">Professional Information</h3>
+                        <div class="form-group">
+                            <label for="education">Education Background *</label>
+                            <input type="text" id="education" name="education" class="form-control" required placeholder="Enter your highest qualification">
+                        </div>
+                        <div class="form-group">
+                            <label>Working Professional *</label>
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="workingProfessional" value="Yes" required>
+                                    <span>Yes</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="workingProfessional" value="No">
+                                    <span>No</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="organization">Current Organization *</label>
+                            <input type="text" id="organization" name="organization" class="form-control" required placeholder="Enter your organization name">
+                        </div>
+                    </div>
+
+                    <!-- Course Selection -->
+                    <div class="form-section">
+                        <h3 class="form-section-title">Course Selection</h3>
+                        <div class="form-group">
+                            <label for="course">Course you are applying for *</label>
+                            <select id="course" name="course" class="form-control" required>
+                                <option value="">Select a course</option>
+                                <option value="Full-Stack Development">Full-Stack Development</option>
+                                <option value="Data Science">Data Science</option>
+                                <option value="UI-UX Development">UI-UX Development</option>
+                                <option value="Cloud Computing">Cloud Computing (AWS/Azure)</option>
+                                <option value="ML AI Development">ML AI Development</option>
+                                <option value="Product Development">Product Development</option>
+                                <option value="Product Development in Data Science">Product Development in Data Science</option>
+                                <option value="App Development">App Development (iOS & Android)</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="goal">What is your goal? *</label>
+                            <textarea id="goal" name="goal" class="form-control" required placeholder="Tell us about your career goals and what you hope to achieve from this course"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Submit Application</button>
+                        </div>
+
+                        
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any questions or inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Tirupati Regalia, Tingre Nagar, Pune, Maharashtra 411015</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <p>+91 8380070920</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <p>codewithswamitech@gmail.com</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contact-form" action="https://formspree.io/f/xblgadvb" method="POST">
+                        <input type="hidden" name="form_type" value="contact">
+                        <input type="hidden" name="_next" value="https://codeswami.tech/success.html">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Code with Swami Tech is your gateway to a successful tech career. We provide industry-oriented training in various technologies to help you become a skilled professional.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Courses</h3>
+                    <ul class="footer-links">
+                        <li><a href="#courses">Full-Stack Development</a></li>
+                        <li><a href="#courses">Data Science</a></li>
+                        <li><a href="#courses">UI/UX Development</a></li>
+                        <li><a href="#courses">Cloud Computing</a></li>
+                        <li><a href="#courses">ML AI Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"> </i>Tirupati Regalia, Tingre Nagar, Pune, Maharashtra 411015</li>
+                        <li><i class="fas fa-phone"></i> +91 8380070920</li>
+                        <li><i class="fas fa-envelope"></i> codewithswamitech@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2023 Code with Swami Tech - All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="cookie-notice">
+        <div class="container">
+            <div class="cookie-content">
+                <p class="cookie-text">We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept", you consent to our use of cookies.</p>
+                <div class="cookie-buttons">
+                    <button class="cookie-btn cookie-btn-accept">Accept</button>
+                    <button class="cookie-btn cookie-btn-decline">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Lead Generation Modal -->
+    <div id="lead-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>Limited Time Offer!</h3>
+            <p>Hurry up and join us today for special early enrollment benefits!</p>
+            <form id="lead-form" action="https://formspree.io/f/xjkyegqq" method="POST">
+                <input type="hidden" name="form_type" value="quick_lead">
+                <input type="hidden" name="_next" value="https://codeswami.tech/success.html">
+                <div class="form-group">
+                    <input type="email" id="lead-email" name="email" placeholder="Your Email" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="lead-phone" name="phone" placeholder="Your Phone Number" required class="form-control">
+                </div>
+                <button type="submit" class="btn-submit">Get Early Access</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
