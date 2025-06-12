@@ -1,0 +1,4 @@
+        User-agent: *
+        Allow: /
+
+        Sitemap: https://codewithswamitech.diy/sitemap.xml
